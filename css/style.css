@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(203, 226, 248);
+    font-family: sans-serif;
+    font-size: larger;
+    color: rgb(112, 22, 112);
+}
+
+h1{
+    border-bottom: red;
+    color: rgb(255, 1, 1);
+    font-size: 16px;
+   
+}
+
+a {
+    color: rgb(96, 70, 241);
+    text-decoration-color: tomato;
+}
+
+a:hover{
+    color: rgb(200, 255, 0);
+    text-align: left;
+}
+
+figcaption{
+    font-style: oblique;
+    font-size: medium;
+    color: tomato;
+}
+
+* {
+    background-attachment: scroll;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    
+}
