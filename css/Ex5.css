@@ -3,3 +3,8 @@ h3{
     background-color: rgb(186, 208, 240);
     
 }
+h1{
+    font-style: italic;
+    border-radius: 2px;
+    color: cornflowerblue;
+}

@@ -15,11 +15,11 @@
 
     }
 
-    p.roundb { 
-        border: 2px solid red;
-  border-radius: 5px;
- 
-    }
+    head3 {
+            background-color: rgb(250, 172, 141);
+            color: brown;
+
+        }
 
 </style>
 
@@ -30,6 +30,18 @@
             <nav class="navbar navbar-light bg-black" style="background-image: url('image/ocean.jpg'); margin-bottom: 10px;">
                 <div class="container-fluid">
                   <a class="navbar-brand"><h3>Navigation</h3></a>
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="https://lazzi45.github.io/lassi_vilkkowww21/projects" style="color: black;"><h5>Projekts</h5></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://lazzi45.github.io/lassi_vilkkowww21/aboutus" style="color: black;"><h5>About us</h5></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://lazzi45.github.io/lassi_vilkkowww21/" style="color: rgb(0, 0, 0);"><h5>Old page</h5></a>
+                    </li>
+                    
+                  </ul>
                   <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit" style="color: black;">Search</button>
@@ -39,14 +51,45 @@
 
  <div class="container">
   <div class="row">
-    <div class="col-sm-1">
+    <div class="col-sm-2">
+      <img src="image/funnyguy.png" class="img-fluid" alt="funnyguy">
+      <br>
+      <div class="head3">
+        <h4>Joke contest winners</h4>
+
+      </div>
+      
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">firstname</th>
+            <th scope="col">lastname</th>
+            <th scope="col">Username</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Donald</td>
+            <td>Duck</td>
+            <td>@Dnld313</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Mickey</td>
+            <td>Mouse</td>
+            <td>@rat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td >Minnie</td>
+            <td>Mouse</td>
+            <td>@mouses</td>
+          </tr>
+        </tbody>
+      </table>
        
-        <ul class="roundb">
-            <li> <a href="https://lazzi45.github.io/lassi_vilkkowww21/" > Home </a></li>
-            <li> <a href="https://lazzi45.github.io/lassi_vilkkowww21/projects" > Projects </a></li>
-            <li> <a href="https://lazzi45.github.io/lassi_vilkkowww21/aboutus" > About us </a></li>
-        
-        </ul>
     
         
     </div>
@@ -137,39 +180,11 @@
           
           <br>
 
-          <h4>Joke contest winners</h4>
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">firstname</th>
-                <th scope="col">lastname</th>
-                <th scope="col">Username</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Donald</td>
-                <td>Duck</td>
-                <td>@Dnld313</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Mickey</td>
-                <td>Mouse</td>
-                <td>@rat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td >Minnie</td>
-                <td>Mouse</td>
-                <td>@mouses</td>
-              </tr>
-            </tbody>
-          </table>
-          <img src="image/funnyguy.png" class="img-fluid" alt="funnyguy">
+          
+          <figure>
           <img src="image/warframe1.jpg" class="img-fluid" alt="...">
+          <figcaption>Screenshot from a game</figcaption>
+          </figure>
     </div>
 
   </div>
